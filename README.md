@@ -12,7 +12,7 @@ import (
 
 func main() {
 	for i := range iter.N(10) {
-		fmt.Print(i)
+		fmt.Println(i)
 	}
 }
 ```

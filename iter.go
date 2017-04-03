@@ -2,7 +2,7 @@
 package iter
 
 /*
-N ranges over [0,n).
+N ranges over [0, n).
 
 For example:
 

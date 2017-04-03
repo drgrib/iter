@@ -19,4 +19,6 @@ func main() {
 
 ## Efficiency Concerns
 
-This package was created specifically to address the critiques for https://github.com/bradfitz/iter found in this [StackOverflow discussion](http://stackoverflow.com/questions/21950244/is-there-a-way-to-iterate-over-a-range-of-integers-in-golang).
+This package was created specifically to address the critiques of https://github.com/bradfitz/iter found in this [StackOverflow discussion](http://stackoverflow.com/questions/21950244/is-there-a-way-to-iterate-over-a-range-of-integers-in-golang) while providing the same functionality.
+
+As can be seen its simple implementation, it operates using a simple idiomatic `for` loop, creating no new data structures aside from a `chan int` over which to send values.

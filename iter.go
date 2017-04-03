@@ -1,8 +1,8 @@
-// Package iter provides a maximally efficient and concise range over integers [0,n) backed internally by a simple for loop
+// Package iter provides a maximally efficient and concise range over integers [0,n) backed internally by a simple for loop.
 package iter
 
 /*
-N ranges over [0,n)
+N ranges over [0,n).
 
 For example:
 

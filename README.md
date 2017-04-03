@@ -16,3 +16,7 @@ func main() {
 	}
 }
 ```
+
+## Efficiency Concerns
+
+This package was created specifically to address the critiques for https://github.com/bradfitz/iter found in this [StackOverflow discussion](http://stackoverflow.com/questions/21950244/is-there-a-way-to-iterate-over-a-range-of-integers-in-golang).

@@ -2,7 +2,8 @@
 package iter
 
 /*
-N returns a `chan int` that will return [0,n)
+N ranges over [0,n)
+
 For example:
 
 	for i := range iter.N(10) {

@@ -1,4 +1,4 @@
-package main
+package iter
 
 func N(n int) chan int {
 	c := make(chan int)
@@ -9,8 +9,4 @@ func N(n int) chan int {
 		close(c)
 	}()
 	return c
-}
-
-func main() {
-
 }
